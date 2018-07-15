@@ -86,6 +86,7 @@ namespace SimpleWebAPI.Controllers
         }
 
         // DELETE: api/Products/5
+        [NonAction]
         [ResponseType(typeof(product_table))]
         public IHttpActionResult Deleteproduct_table(int id)
         {
